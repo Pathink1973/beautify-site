@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Footer = () => {
@@ -7,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="text-2xl font-playfair mb-4">Beauty<span className="text-salon-pink">Now</span></h3>
+            <h3 className="text-2xl font-playfair mb-4">Beautify<span className="text-salon-pink">Now</span></h3>
             <p className="text-gray-300 mb-4">Discover your true beauty with our premium services and expert team.</p>
             <div className="flex space-x-4">
               <a href="#" className="text-white hover:text-salon-pink transition-colors">
@@ -67,7 +66,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-700 pt-6 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm mb-4 md:mb-0">© 2023 BeautyNow. All rights reserved.</p>
+            <p className="text-gray-400 text-sm mb-4 md:mb-0">© 2023 BeautifyNow. All rights reserved.</p>
             <div className="flex space-x-6">
               <a href="#" className="text-gray-400 hover:text-salon-pink text-sm transition-colors">Privacy Policy</a>
               <a href="#" className="text-gray-400 hover:text-salon-pink text-sm transition-colors">Terms of Service</a>

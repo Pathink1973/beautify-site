@@ -31,7 +31,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
         <a href="#" className="text-salon-darkgray font-playfair text-2xl font-bold">
-          Beauty<span className="text-salon-pink">Now</span>
+          Beautify<span className="text-salon-pink">Now</span>
         </a>
         
         {/* Mobile Menu Button */}
