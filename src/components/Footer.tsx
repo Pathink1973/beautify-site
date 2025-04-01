@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const Footer = () => {
@@ -7,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
             <h3 className="text-2xl font-playfair mb-4">Beautify<span className="text-salon-pink">Now</span></h3>
-            <p className="text-gray-300 mb-4">Discover your true beauty with our premium services and expert team.</p>
+            <p className="text-gray-300 mb-4">Descubra a sua verdadeira beleza com os nossos serviços premium e equipa de especialistas.</p>
             <div className="flex space-x-4">
               <a href="#" className="text-white hover:text-salon-pink transition-colors">
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -28,49 +29,49 @@ const Footer = () => {
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
+            <h4 className="text-lg font-semibold mb-4">Links Rápidos</h4>
             <ul className="space-y-2">
-              <li><a href="#home" className="text-gray-300 hover:text-salon-pink transition-colors">Home</a></li>
-              <li><a href="#services" className="text-gray-300 hover:text-salon-pink transition-colors">Services</a></li>
-              <li><a href="#about" className="text-gray-300 hover:text-salon-pink transition-colors">About Us</a></li>
-              <li><a href="#testimonials" className="text-gray-300 hover:text-salon-pink transition-colors">Testimonials</a></li>
-              <li><a href="#contact" className="text-gray-300 hover:text-salon-pink transition-colors">Contact</a></li>
+              <li><a href="#home" className="text-gray-300 hover:text-salon-pink transition-colors">Início</a></li>
+              <li><a href="#services" className="text-gray-300 hover:text-salon-pink transition-colors">Serviços</a></li>
+              <li><a href="#about" className="text-gray-300 hover:text-salon-pink transition-colors">Sobre Nós</a></li>
+              <li><a href="#testimonials" className="text-gray-300 hover:text-salon-pink transition-colors">Depoimentos</a></li>
+              <li><a href="#contact" className="text-gray-300 hover:text-salon-pink transition-colors">Contacto</a></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-4">Services</h4>
+            <h4 className="text-lg font-semibold mb-4">Serviços</h4>
             <ul className="space-y-2">
-              <li><a href="#services" className="text-gray-300 hover:text-salon-pink transition-colors">Facial Treatments</a></li>
-              <li><a href="#services" className="text-gray-300 hover:text-salon-pink transition-colors">Hair Styling</a></li>
+              <li><a href="#services" className="text-gray-300 hover:text-salon-pink transition-colors">Tratamentos Faciais</a></li>
+              <li><a href="#services" className="text-gray-300 hover:text-salon-pink transition-colors">Penteados</a></li>
               <li><a href="#services" className="text-gray-300 hover:text-salon-pink transition-colors">Manicure & Pedicure</a></li>
-              <li><a href="#services" className="text-gray-300 hover:text-salon-pink transition-colors">Makeup Services</a></li>
-              <li><a href="#services" className="text-gray-300 hover:text-salon-pink transition-colors">Body Treatments</a></li>
+              <li><a href="#services" className="text-gray-300 hover:text-salon-pink transition-colors">Serviços de Maquilhagem</a></li>
+              <li><a href="#services" className="text-gray-300 hover:text-salon-pink transition-colors">Tratamentos Corporais</a></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
-            <p className="text-gray-300 mb-2">123 Beauty Street, Suite 100</p>
-            <p className="text-gray-300 mb-2">New York, NY 10001</p>
-            <p className="text-gray-300 mb-2">Phone: (123) 456-7890</p>
-            <p className="text-gray-300 mb-4">Email: info@beautynow.com</p>
+            <h4 className="text-lg font-semibold mb-4">Informações de Contacto</h4>
+            <p className="text-gray-300 mb-2">Rua da Beleza 123, Sala 100</p>
+            <p className="text-gray-300 mb-2">Lisboa, 1000-001</p>
+            <p className="text-gray-300 mb-2">Telefone: 210 123 456</p>
+            <p className="text-gray-300 mb-4">Email: info@beautifynow.com</p>
             <p className="text-gray-300">
-              <span className="font-semibold">Hours:</span><br />
-              Mon-Fri: 9:00 AM - 7:00 PM<br />
-              Sat: 9:00 AM - 6:00 PM<br />
-              Sun: Closed
+              <span className="font-semibold">Horário:</span><br />
+              Seg-Sex: 9:00 - 19:00<br />
+              Sáb: 9:00 - 18:00<br />
+              Dom: Fechado
             </p>
           </div>
         </div>
         
         <div className="border-t border-gray-700 pt-6 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm mb-4 md:mb-0">© 2023 BeautifyNow. All rights reserved.</p>
+            <p className="text-gray-400 text-sm mb-4 md:mb-0">© 2023 BeautifyNow. Todos os direitos reservados.</p>
             <div className="flex space-x-6">
-              <a href="#" className="text-gray-400 hover:text-salon-pink text-sm transition-colors">Privacy Policy</a>
-              <a href="#" className="text-gray-400 hover:text-salon-pink text-sm transition-colors">Terms of Service</a>
-              <a href="#" className="text-gray-400 hover:text-salon-pink text-sm transition-colors">Cookie Policy</a>
+              <a href="#" className="text-gray-400 hover:text-salon-pink text-sm transition-colors">Política de Privacidade</a>
+              <a href="#" className="text-gray-400 hover:text-salon-pink text-sm transition-colors">Termos de Serviço</a>
+              <a href="#" className="text-gray-400 hover:text-salon-pink text-sm transition-colors">Política de Cookies</a>
             </div>
           </div>
         </div>

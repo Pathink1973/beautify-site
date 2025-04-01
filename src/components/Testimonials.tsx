@@ -4,24 +4,24 @@ import React from 'react';
 const testimonials = [
   {
     id: 1,
-    name: "Sarah Johnson",
-    role: "Regular Client",
-    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80",
-    text: "I've been coming to BeautyNow for over a year, and I'm always impressed by their professionalism and attention to detail. The facial treatments have dramatically improved my skin."
+    name: "Sara Oliveira",
+    role: "Cliente Regular",
+    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+    text: "Tenho vindo à BeautifyNow há mais de um ano, e estou sempre impressionada com o seu profissionalismo e atenção aos detalhes. Os tratamentos faciais melhoraram drasticamente a minha pele."
   },
   {
     id: 2,
-    name: "Michael Davis",
-    role: "New Client",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80",
-    text: "Had my first haircut here last week and was blown away by the experience. The salon has a luxurious feel, and my stylist really listened to what I wanted. Will definitely be back!"
+    name: "Miguel Santos",
+    role: "Novo Cliente",
+    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+    text: "Fiz o meu primeiro corte de cabelo aqui na semana passada e fiquei impressionado com a experiência. O salão tem um ambiente luxuoso, e o meu estilista realmente ouviu o que eu queria. Voltarei com certeza!"
   },
   {
     id: 3,
-    name: "Jennifer Adams",
-    role: "Monthly Subscriber",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80",
-    text: "The monthly subscription package is amazing value! I get to try different treatments each month, and the staff always makes me feel special. The results speak for themselves."
+    name: "Joana Almeida",
+    role: "Assinante Mensal",
+    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+    text: "O pacote de assinatura mensal tem um valor incrível! Consigo experimentar diferentes tratamentos a cada mês, e a equipa faz-me sempre sentir especial. Os resultados falam por si mesmos."
   }
 ];
 
@@ -30,8 +30,8 @@ const Testimonials = () => {
     <section id="testimonials" className="py-16 bg-salon-beige">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
-          <h2 className="section-title">What Our Clients Say</h2>
-          <p className="section-subtitle">Hear from our satisfied customers</p>
+          <h2 className="section-title">O Que Dizem os Nossos Clientes</h2>
+          <p className="section-subtitle">Ouça os nossos clientes satisfeitos</p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

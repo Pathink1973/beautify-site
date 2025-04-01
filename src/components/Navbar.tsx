@@ -41,12 +41,12 @@ const Navbar = () => {
         
         {/* Desktop Navigation */}
         <ul className="hidden md:flex space-x-8 items-center">
-          <li><a href="#home" className="text-salon-darkgray hover:text-salon-pink transition-colors">Home</a></li>
-          <li><a href="#services" className="text-salon-darkgray hover:text-salon-pink transition-colors">Services</a></li>
-          <li><a href="#about" className="text-salon-darkgray hover:text-salon-pink transition-colors">About</a></li>
-          <li><a href="#testimonials" className="text-salon-darkgray hover:text-salon-pink transition-colors">Testimonials</a></li>
-          <li><a href="#contact" className="text-salon-darkgray hover:text-salon-pink transition-colors">Contact</a></li>
-          <li><a href="#book" className="btn-primary">Book Now</a></li>
+          <li><a href="#home" className="text-salon-darkgray hover:text-salon-pink transition-colors">Início</a></li>
+          <li><a href="#services" className="text-salon-darkgray hover:text-salon-pink transition-colors">Serviços</a></li>
+          <li><a href="#about" className="text-salon-darkgray hover:text-salon-pink transition-colors">Sobre</a></li>
+          <li><a href="#testimonials" className="text-salon-darkgray hover:text-salon-pink transition-colors">Depoimentos</a></li>
+          <li><a href="#contact" className="text-salon-darkgray hover:text-salon-pink transition-colors">Contacto</a></li>
+          <li><a href="#book" className="btn-primary">Reservar Agora</a></li>
         </ul>
       </div>
       
@@ -54,12 +54,12 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="md:hidden bg-white w-full shadow-md">
           <ul className="py-4 px-6 space-y-4">
-            <li><a href="#home" className="block py-2 text-salon-darkgray hover:text-salon-pink transition-colors" onClick={toggleMenu}>Home</a></li>
-            <li><a href="#services" className="block py-2 text-salon-darkgray hover:text-salon-pink transition-colors" onClick={toggleMenu}>Services</a></li>
-            <li><a href="#about" className="block py-2 text-salon-darkgray hover:text-salon-pink transition-colors" onClick={toggleMenu}>About</a></li>
-            <li><a href="#testimonials" className="block py-2 text-salon-darkgray hover:text-salon-pink transition-colors" onClick={toggleMenu}>Testimonials</a></li>
-            <li><a href="#contact" className="block py-2 text-salon-darkgray hover:text-salon-pink transition-colors" onClick={toggleMenu}>Contact</a></li>
-            <li><a href="#book" className="btn-primary inline-block mt-2" onClick={toggleMenu}>Book Now</a></li>
+            <li><a href="#home" className="block py-2 text-salon-darkgray hover:text-salon-pink transition-colors" onClick={toggleMenu}>Início</a></li>
+            <li><a href="#services" className="block py-2 text-salon-darkgray hover:text-salon-pink transition-colors" onClick={toggleMenu}>Serviços</a></li>
+            <li><a href="#about" className="block py-2 text-salon-darkgray hover:text-salon-pink transition-colors" onClick={toggleMenu}>Sobre</a></li>
+            <li><a href="#testimonials" className="block py-2 text-salon-darkgray hover:text-salon-pink transition-colors" onClick={toggleMenu}>Depoimentos</a></li>
+            <li><a href="#contact" className="block py-2 text-salon-darkgray hover:text-salon-pink transition-colors" onClick={toggleMenu}>Contacto</a></li>
+            <li><a href="#book" className="btn-primary inline-block mt-2" onClick={toggleMenu}>Reservar Agora</a></li>
           </ul>
         </div>
       )}

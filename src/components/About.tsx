@@ -5,30 +5,30 @@ const teamMembers = [
   {
     id: 1,
     name: "Emma Roberts",
-    role: "Master Stylist",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80",
-    description: "With over 10 years of experience, Emma specializes in hair coloring and cutting-edge styling techniques."
+    role: "Estilista Principal",
+    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+    description: "Com mais de 10 anos de experiência, Emma é especialista em coloração de cabelo e técnicas de penteado de vanguarda."
   },
   {
     id: 2,
     name: "Olivia Chen",
-    role: "Skincare Specialist",
-    image: "https://images.unsplash.com/photo-1542206395-9feb3edaa68d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80",
-    description: "Olivia is certified in advanced facial treatments and has helped countless clients achieve their skincare goals."
+    role: "Especialista em Cuidados da Pele",
+    image: "https://images.unsplash.com/photo-1542206395-9feb3edaa68d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+    description: "Olivia é certificada em tratamentos faciais avançados e já ajudou inúmeros clientes a alcançar os seus objetivos de cuidados da pele."
   },
   {
     id: 3,
     name: "David Kim",
-    role: "Makeup Artist",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80",
-    description: "David's creative approach to makeup has made him a favorite among clients for special occasions and photo shoots."
+    role: "Maquilhador",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+    description: "A abordagem criativa de David à maquilhagem tornou-o um favorito entre os clientes para ocasiões especiais e sessões fotográficas."
   },
   {
     id: 4,
     name: "Sophia Martinez",
-    role: "Nail Technician",
-    image: "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80",
-    description: "Sophia's attention to detail and artistic flair make her nail designs truly stand out and last longer."
+    role: "Técnica de Unhas",
+    image: "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+    description: "A atenção aos detalhes e o talento artístico de Sophia fazem com que os seus designs de unhas se destaquem verdadeiramente e durem mais tempo."
   }
 ];
 
@@ -37,45 +37,45 @@ const About = () => {
     <section id="about" className="py-16 bg-white">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
-          <h2 className="section-title">About Us</h2>
-          <p className="section-subtitle">Meet our team of beauty professionals</p>
+          <h2 className="section-title">Sobre Nós</h2>
+          <p className="section-subtitle">Conheça a nossa equipa de profissionais de beleza</p>
         </div>
         
         <div className="mb-16">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-8 md:mb-0 md:pr-8">
-              <h3 className="text-2xl font-playfair font-semibold mb-4">Our Story</h3>
+              <h3 className="text-2xl font-playfair font-semibold mb-4">A Nossa História</h3>
               <p className="text-salon-darkgray/80 mb-4">
-                Founded in 2015, BeautyNow began with a simple mission: to provide high-quality beauty services in a welcoming, luxurious environment. 
-                What started as a small salon has grown into a premier beauty destination, trusted by clients for our commitment to excellence and personalized care.
+                Fundada em 2015, a BeautifyNow começou com uma missão simples: proporcionar serviços de beleza de alta qualidade num ambiente acolhedor e luxuoso. 
+                O que começou como um pequeno salão cresceu para se tornar um destino de beleza de primeira linha, confiado pelos clientes pelo nosso compromisso com a excelência e cuidado personalizado.
               </p>
               <p className="text-salon-darkgray/80 mb-4">
-                Our team consists of experienced professionals who are passionate about their craft and continuously update their skills with the latest techniques and trends in the beauty industry.
+                A nossa equipa consiste em profissionais experientes que são apaixonados pelo seu ofício e atualizam continuamente as suas competências com as técnicas e tendências mais recentes na indústria da beleza.
               </p>
               <p className="text-salon-darkgray/80">
-                At BeautyNow, we believe that everyone deserves to feel beautiful and confident. We use only premium products and provide a personalized experience tailored to each client's unique needs and preferences.
+                Na BeautifyNow, acreditamos que todos merecem sentir-se bonitos e confiantes. Utilizamos apenas produtos premium e proporcionamos uma experiência personalizada adaptada às necessidades e preferências únicas de cada cliente.
               </p>
             </div>
             <div className="md:w-1/2 flex justify-center">
               <div className="grid grid-cols-2 gap-4">
                 <img 
-                  src="https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" 
-                  alt="Salon interior" 
+                  src="https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" 
+                  alt="Interior do salão" 
                   className="rounded-lg shadow-md h-48 object-cover"
                 />
                 <img 
-                  src="https://images.unsplash.com/photo-1595867818082-083862f3d630?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" 
-                  alt="Beauty products" 
+                  src="https://images.unsplash.com/photo-1595867818082-083862f3d630?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" 
+                  alt="Produtos de beleza" 
                   className="rounded-lg shadow-md h-48 object-cover"
                 />
                 <img 
-                  src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" 
-                  alt="Salon equipment" 
+                  src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" 
+                  alt="Equipamento do salão" 
                   className="rounded-lg shadow-md h-48 object-cover"
                 />
                 <img 
-                  src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" 
-                  alt="Facial treatment" 
+                  src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" 
+                  alt="Tratamento facial" 
                   className="rounded-lg shadow-md h-48 object-cover"
                 />
               </div>
@@ -83,7 +83,7 @@ const About = () => {
           </div>
         </div>
         
-        <h3 className="text-2xl font-playfair font-semibold mb-8 text-center">Our Team</h3>
+        <h3 className="text-2xl font-playfair font-semibold mb-8 text-center">A Nossa Equipa</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {teamMembers.map((member) => (
             <div key={member.id} className="bg-salon-lightgray p-6 rounded-lg text-center animate-on-scroll">
