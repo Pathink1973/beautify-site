@@ -7,28 +7,28 @@ const servicesData = [
     title: "Tratamentos Faciais",
     description: "Rejuvenesça a sua pele com os nossos tratamentos faciais personalizados de acordo com o seu tipo de pele e preocupações.",
     price: "A partir de 79€",
-    image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1613953532877-6b738e2bd493?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
   },
   {
     id: 2,
     title: "Penteados",
     description: "Obtenha o look perfeito com os nossos serviços profissionais de penteados, desde cortes a coloração e tratamentos.",
     price: "A partir de 49€",
-    image: "https://images.unsplash.com/photo-1560869713-7d9baaf7b7fe?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1562322140-8baeececf3df?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
   },
   {
     id: 3,
     title: "Manicure & Pedicure",
     description: "Mime as suas mãos e pés com os nossos luxuosos serviços de manicure e pedicure.",
     price: "A partir de 39€",
-    image: "https://images.unsplash.com/photo-1604654894610-df63bc536371?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1610992015732-2449b76344bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
   },
   {
     id: 4,
     title: "Serviços de Maquilhagem",
     description: "Fique no seu melhor para qualquer ocasião com os nossos serviços profissionais de maquilhagem usando produtos premium.",
     price: "A partir de 59€",
-    image: "https://images.unsplash.com/photo-1631730359585-93c523261570?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const servicesData = [
     title: "Depilação",
     description: "Obtenha uma pele suave com os nossos serviços profissionais e delicados de depilação para todas as áreas do corpo.",
     price: "A partir de 29€",
-    image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1570194065650-d99fb4abbd90?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
   }
 ];
 

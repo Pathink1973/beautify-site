@@ -6,28 +6,28 @@ const teamMembers = [
     id: 1,
     name: "Emma Roberts",
     role: "Estilista Principal",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+    image: "https://images.unsplash.com/photo-1607746882042-944635dfe10e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
     description: "Com mais de 10 anos de experiência, Emma é especialista em coloração de cabelo e técnicas de penteado de vanguarda."
   },
   {
     id: 2,
     name: "Olivia Chen",
     role: "Especialista em Cuidados da Pele",
-    image: "https://images.unsplash.com/photo-1542206395-9feb3edaa68d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+    image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
     description: "Olivia é certificada em tratamentos faciais avançados e já ajudou inúmeros clientes a alcançar os seus objetivos de cuidados da pele."
   },
   {
     id: 3,
     name: "David Kim",
     role: "Maquilhador",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+    image: "https://images.unsplash.com/photo-1531891437562-4301cf35b7e4?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
     description: "A abordagem criativa de David à maquilhagem tornou-o um favorito entre os clientes para ocasiões especiais e sessões fotográficas."
   },
   {
     id: 4,
     name: "Sophia Martinez",
     role: "Técnica de Unhas",
-    image: "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+    image: "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
     description: "A atenção aos detalhes e o talento artístico de Sophia fazem com que os seus designs de unhas se destaquem verdadeiramente e durem mais tempo."
   }
 ];
@@ -59,22 +59,22 @@ const About = () => {
             <div className="md:w-1/2 flex justify-center">
               <div className="grid grid-cols-2 gap-4">
                 <img 
-                  src="https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" 
+                  src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" 
                   alt="Interior do salão" 
                   className="rounded-lg shadow-md h-48 object-cover"
                 />
                 <img 
-                  src="https://images.unsplash.com/photo-1595867818082-083862f3d630?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" 
+                  src="https://images.unsplash.com/photo-1614159102662-94e9632263dd?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" 
                   alt="Produtos de beleza" 
                   className="rounded-lg shadow-md h-48 object-cover"
                 />
                 <img 
-                  src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" 
+                  src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" 
                   alt="Equipamento do salão" 
                   className="rounded-lg shadow-md h-48 object-cover"
                 />
                 <img 
-                  src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" 
+                  src="https://images.unsplash.com/photo-1560750588-73207b1ef5b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" 
                   alt="Tratamento facial" 
                   className="rounded-lg shadow-md h-48 object-cover"
                 />

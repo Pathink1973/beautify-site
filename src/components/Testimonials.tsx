@@ -6,21 +6,21 @@ const testimonials = [
     id: 1,
     name: "Sara Oliveira",
     role: "Cliente Regular",
-    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
     text: "Tenho vindo à BeautifyNow há mais de um ano, e estou sempre impressionada com o seu profissionalismo e atenção aos detalhes. Os tratamentos faciais melhoraram drasticamente a minha pele."
   },
   {
     id: 2,
     name: "Miguel Santos",
     role: "Novo Cliente",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
     text: "Fiz o meu primeiro corte de cabelo aqui na semana passada e fiquei impressionado com a experiência. O salão tem um ambiente luxuoso, e o meu estilista realmente ouviu o que eu queria. Voltarei com certeza!"
   },
   {
     id: 3,
     name: "Joana Almeida",
     role: "Assinante Mensal",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+    image: "https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
     text: "O pacote de assinatura mensal tem um valor incrível! Consigo experimentar diferentes tratamentos a cada mês, e a equipa faz-me sempre sentir especial. Os resultados falam por si mesmos."
   }
 ];

@@ -22,7 +22,7 @@ const Hero = () => {
             <div className="relative w-full max-w-md">
               <div className="absolute -top-4 -left-4 w-64 h-64 bg-salon-pink rounded-full opacity-20"></div>
               <img 
-                src="https://images.unsplash.com/photo-1596178060810-72a0b15d7609?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
+                src="https://images.unsplash.com/photo-1560750588-73207b1ef5b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
                 alt="Salão de beleza" 
                 className="rounded-lg shadow-xl relative z-10 w-full"
               />

@@ -90,3 +90,12 @@
 .section-subtitle {
   @apply text-lg md:text-xl text-salon-darkgray/80 mb-10;
 }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
